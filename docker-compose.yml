@@ -92,9 +92,9 @@ services:
       - ./har:/data/har
       - ./.streamlit:/app/.streamlit
     environment:
-      - VITE_WSS_BASE_URL=wss://skyvern-n8n-u32695.vm.elestio.app/api/v1
-      - VITE_API_BASE_URL=https://skyvern-n8n-u32695.vm.elestio.app/api/v1
-      - VITE_ARTIFACT_API_BASE_URL=https://skyvern-n8n-u32695.vm.elestio.app:9090
+      - VITE_WSS_BASE_URL=wss://skyvern-u32695.vm.elestio.app/api/v1
+      - VITE_API_BASE_URL=https://skyvern-u32695.vm.elestio.app/api/v1
+      - VITE_ARTIFACT_API_BASE_URL=https://skyvern-u32695.vm.elestio.app:9090
     depends_on:
       skyvern:
         condition: service_healthy
