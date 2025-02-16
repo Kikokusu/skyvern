@@ -37,7 +37,7 @@ services:
       - BROWSER_TYPE=chromium-headful
       - ENABLE_OPENAI=true
       - LLM_KEY=OPENAI_GPT4O
-      - OPENAI_API_KEY=<your_openai_key>
+      - OPENAI_API_KEY=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
       # If you want to use other LLM provider, like azure and anthropic:
       # - ENABLE_ANTHROPIC=true
       # - LLM_KEY=ANTHROPIC_CLAUDE3.5_SONNET
