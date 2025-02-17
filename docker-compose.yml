@@ -36,8 +36,8 @@ services:
       - DATABASE_STRING=postgresql+psycopg://skyvern:skyvern@postgres:5432/skyvern
       - BROWSER_TYPE=chromium-headful
       - ENABLE_OPENAI=true
-      - LLM_KEY=
-      - OPENAI_API_KEY=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
+      - LLM_KEY=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
+      - OPENAI_API_KEY=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
       # If you want to use other LLM provider, like azure and anthropic:
       # - ENABLE_ANTHROPIC=true
       # - LLM_KEY=ANTHROPIC_CLAUDE3.5_SONNET
